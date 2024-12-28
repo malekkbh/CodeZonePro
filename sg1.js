@@ -4,6 +4,12 @@ const clock = {
   seconds: 0,
 };
 
+// اضافھ صفه جدیدة باسم milliseconds 
+
+// عدل على العلمية tick 
+// لكي تقدم الساعه ب ١ جزء من الثانية
+
+
 const tick = (clock) => {
   clock.seconds = clock.seconds + 1;
   clock.minutes = clock.minutes + clock.secods / 60;
@@ -14,3 +20,12 @@ const tick = (clock) => {
 
   return clock;
 };
+
+/*
+    انشئ عملية باسم show()
+    العملية تطبع الساعه بالطريقه التاليه: 
+
+    hours:minutes:seconds:milliseconds
+*/
+
+
