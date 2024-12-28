@@ -3,12 +3,12 @@ const clock = {
   minutes: 0,
   seconds: 0,
 };
+// 1)
+// اضافھ صفه جدیدة باسم milliseconds
 
-// اضافھ صفه جدیدة باسم milliseconds 
-
-// عدل على العلمية tick 
+// 2)
+// عدل على العلمية tick
 // لكي تقدم الساعه ب ١ جزء من الثانية
-
 
 const tick = (clock) => {
   clock.seconds = clock.seconds + 1;
@@ -21,11 +21,16 @@ const tick = (clock) => {
   return clock;
 };
 
-/*
+/* 
+3)
     انشئ عملية باسم show()
     العملية تطبع الساعه بالطريقه التاليه: 
 
     hours:minutes:seconds:milliseconds
 */
 
+/*
 
+4) اكتب عملیھ باسم setMidNigh التي تحدد الساعھ الى منتصف اللیل
+5) اكتب عملیھ باسم setMidDayالتي تحدد الساعھ الى منتصف الیوم 
+*/
